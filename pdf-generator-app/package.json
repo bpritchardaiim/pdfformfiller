@@ -1,0 +1,15 @@
+{
+  "name": "pdf-generator-app",
+  "version": "1.0.0",
+  "description": "A simple PDF generator that retrieves data from a SQL Server database and generates PDF documents.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "pdfkit": "^0.12.1",
+    "mssql": "^7.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
